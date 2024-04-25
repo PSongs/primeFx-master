@@ -2,11 +2,11 @@ import { useState } from 'react';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
 import { Home } from './Components/Home';
+import Contscts from './Components/Contscts';
+import Faqs from './Components/Faqs';
 import HowItWorks from './Components/HowItWorks';
+import About from './Components/About';
 import Nav from './Components/Nav/Nav';
-import Contscts from './Components/Contact/Contscts';
-import Faqs from './Components/Faq/Faqs';
-import About from './Components/About/About';
 
 function App() {
   const [count, setCount] = useState(0);
